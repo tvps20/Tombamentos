@@ -1,0 +1,45 @@
+@charset "utf-8"; /* Evitar problemas de acentuação */
+
+section#dados
+{
+	float: right;
+	height: 400px;
+	width: 500px;
+    position: absolute;
+    margin: 60px 30px;
+}
+
+#tabela
+{
+    width: 600px;
+    background-color: #d9edf7;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #3a87ad;
+}
+
+#tabela tr
+{
+	height: 30px;
+	background-color: #d9edf7;
+	color: #3a87ad;
+}
+
+#tabela tr:hover
+{
+    height: 30px;
+	background-color: #A9CFE2;
+	color: #3a87ad;
+}
+
+#tabela td
+{
+    border: 1px solid #3a87ad;
+	height: 30px;
+    width: 111.5px;
+	float: left;
+	text-align: center;
+	padding-top: 1px;
+	padding-left: 5px;
+/*    overflow: hidden; /* Não deixa o texto aparecer em outras celulas */
+}

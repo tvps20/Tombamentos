@@ -1,0 +1,100 @@
+@charset "utf-8"; /* Evitar problemas de acentuação */
+
+#entradaBoxLabel
+{
+    height: 45px;
+    text-align: center;
+    font: bold 14px/45px sans-serif;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ededed+100  Deixando a cor em gradiente*/
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(237,237,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+    border-bottom: 1px solid #BDBDBD;
+    box-shadow: 1px 0px 3px rgba(0,0,0,.7); /* Sombra */
+    color: #555555;
+    text-shadow: 1px 0px 1px white;
+}
+
+.entradaDiv
+{
+    margin: 20px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+}
+
+.entradaDiv input
+{
+    width: 310px;
+    height: 35px;
+    padding-left: 5px;
+    font: normal 13px sans-serif;
+    color: #aeaeae;
+    border-radius: 3px;
+    border: 1px solid #bfc4c6;
+    outline: none;   
+}
+
+.entradaDiv :hover 
+{
+    background-color: #E1F5FE;
+}
+
+#botoes
+{
+    width: 310px;
+    margin-left: 25px;
+}
+
+#botao
+{
+    float: right;
+    padding: 5px 15px;
+    font: bold 12px sans-serif;
+    border-radius: 20px;
+    text-shadow: 0px 1px 0px white;
+    border: 1px solid #9eb9c3;
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edf6f9+1,cde5ee+100 */
+    background: #edf6f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #edf6f9 1%, #cde5ee 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #edf6f9 1%,#cde5ee 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #edf6f9 1%,#cde5ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf6f9', endColorstr='#cde5ee',GradientType=0 ); /* IE6-9 */
+
+
+    color: #527988;
+    box-shadow: 0px 0px 10px #c9c9c9;
+    cursor: pointer; /* Troca o desenho do cursor */
+}
+
+#botao a
+{
+    text-decoration: none; /* Tirando o sumblinhado */
+    color: inherit; /* Faz com que o elemento tenha a cor do seu pai */
+}
+
+#botao:hover
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cde5ee+0,edf6f9+98 */
+    background: #cde5ee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cde5ee 0%, #edf6f9 98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cde5ee 0%,#edf6f9 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cde5ee 0%,#edf6f9 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde5ee', endColorstr='#edf6f9',GradientType=0 ); /* IE6-9 */
+}
+
+#rodaPe p
+{
+    text-align: center; /* Centralizando o texto */
+    font: bold 12px sans-serif;
+    color: white;
+    margin-bottom: 100%;
+}
+

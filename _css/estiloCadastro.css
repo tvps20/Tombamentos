@@ -1,0 +1,35 @@
+@charset "utf-8"; /* Evitar problemas de acentuação */
+
+section#dados
+{
+    float: right;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    margin: 50px 75px;
+}
+
+fieldset
+{
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#dam
+{
+    top: 100px;
+}
+
+p
+{
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+p input
+{
+    width: 400px;
+}
